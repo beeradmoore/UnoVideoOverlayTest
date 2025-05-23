@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "UnoVideoOverlayNativeTest",
+  "display": "standalone",
+  "name": "UnoVideoOverlayNativeTest",
+  "short_name": "UnoVideoOverlayNativeTest",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
