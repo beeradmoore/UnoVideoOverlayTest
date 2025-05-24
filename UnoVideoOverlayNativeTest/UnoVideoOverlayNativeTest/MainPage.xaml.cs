@@ -2,7 +2,7 @@ namespace UnoVideoOverlayNativeTest;
 
 public sealed partial class MainPage : Page
 {
-    public MainPageModel ViewModel { get; init; }
+    public MainPageModel ViewModel { get; private set; }
 
     public MainPage()
     {

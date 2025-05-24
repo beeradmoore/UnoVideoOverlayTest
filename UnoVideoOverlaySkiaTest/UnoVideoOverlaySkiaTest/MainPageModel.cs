@@ -21,9 +21,9 @@ public partial class MainPageModel : ObservableObject
 
     [ObservableProperty]
     public partial double Duration { get; set; }
-    
+
     [ObservableProperty]
-    public partial string PositionString { get; set; }
+    public partial string PositionString { get; set; } = string.Empty;
     
     [ObservableProperty]
     public partial double Position { get; set; }

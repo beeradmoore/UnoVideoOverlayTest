@@ -9,7 +9,8 @@
 
         <Grid Grid.Row="0" Grid.Column="0" Background="#FF0000" Opacity="0.5" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Height="100" />
         <Image Grid.Row="0" Grid.Column="0" Source="ms-appx:///Assets/Images/rectangle.png" HorizontalAlignment="Right" VerticalAlignment="Center" Width="100" Height="100" />
-
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="TextBlock" FontSize="50" Opacity="0.5" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        
         <Grid Grid.Row="1" ColumnSpacing="8" RowSpacing="8" Margin="16" RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto">
             <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Command="{x:Bind ViewModel.PlayPauseCommand}" HorizontalAlignment="Center" Content="{x:Bind ViewModel.PlayPauseButtonText, Mode=OneWay}">
                 <!--<Button.Content>
